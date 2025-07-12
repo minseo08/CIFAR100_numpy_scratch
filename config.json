@@ -1,0 +1,11 @@
+{
+    "experiment_name": "ResNet18_CIFAR100_data_aug_18",
+    "dataset_path": "data/cifar-100-python",
+    "output_dir_base": "./experiments/aug",
+    "validation_rate": 0.2,
+    "max_epochs": 1,
+    "batch_size": 128,
+    "learning_rate": 0.01,
+    "optimizer_type": "AdamW",
+    "dropout": 0.2
+}
